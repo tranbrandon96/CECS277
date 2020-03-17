@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="SimpleName" project="CECS277 Lab6 (Adapter Pattern)" 
+    file="/CECS277 Lab6 (Adapter Pattern)/src/SimpleName.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="139" x="498" y="302"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="FullName" project="CECS277 Lab6 (Adapter Pattern)" 
+    file="/CECS277 Lab6 (Adapter Pattern)/src/FullName.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="209" width="163" x="677" y="302"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="FullNameInterface" project="CECS277 Lab6 (Adapter Pattern)" 
+    file="/CECS277 Lab6 (Adapter Pattern)/src/FullNameInterface.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="163" x="677" y="551"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="4" language="java" name="NameInterface" project="CECS277 Lab6 (Adapter Pattern)" 
+    file="/CECS277 Lab6 (Adapter Pattern)/src/NameInterface.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="139" x="498" y="551"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="5" language="java" name="Tester" project="CECS277 Lab6 (Adapter Pattern)" 
+    file="/CECS277 Lab6 (Adapter Pattern)/src/Tester.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="124" x="880" y="302"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="6">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="7">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
